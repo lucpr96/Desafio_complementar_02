@@ -1,0 +1,81 @@
+<html>
+
+
+
+    <head>
+
+
+        <script>
+
+            // Desafio Complementar 02:
+
+
+            // 1 - Cálculo ICMS
+
+            var somar = (a,b) => a + b
+            var subtrair = (a,b) => a - b
+            var calcularICMS = (x) => x * 0.21
+
+            var precoProduto = 500
+            var desconto = 50
+
+            //Calculo o PrecoProduto + ICMS - Desconto
+
+            var icms = calcularICMS(precoProduto)
+            var soma = somar(precoProduto,icms)
+            var novoProduto = subtrair(soma,desconto)
+
+            console.log(novoProduto)
+
+
+
+            // 2 - Dois números múltiplos:
+
+
+            var num = prompt("Insira um número inteiro")
+            console.log(num)
+
+            var mult = prompt("Insira um segundo número inteiro")
+            console.log(mult)
+
+            if (num%mult == 0)
+            console.log(num+" é múltiplo de "+mult)
+            else
+            console.log(num+" não é múltiplo de "+mult)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </script>
+
+
+
+
+
+    </head>
+    
+    
+    
+    <body>
+
+
+
+
+    </body>
+
+
+
+
+
+</html>
